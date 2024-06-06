@@ -1,0 +1,49 @@
+1.使用 CSRT 追踪器 標註圖片中的物件位置
+圖片路徑為:mosquito/
+先準備好數據，數據集格式如下：
+數據集格式.txt
+
+執行CSRT追踪器_標記.py
+
+
+
+重要!!!!!!!!!!!!!!!
+
+需要統一圖片大小
+
+
+
+
+2.整理好資料集後 轉換標記格式
+
+原本:
+    "Aedes aegypti landing (1).jpg": {
+        "bbox": [
+            60,
+            88,
+            82,
+            77
+        ]
+    },
+轉換後:
+
+每張圖片會有自己的檔案
+ex:
+Aedes aegypti landing (1).txt 長這樣
+0 0.4508928571428571 0.5647321428571428 0.36607142857142855 0.34375
+
+執行train_test_split.py
+
+
+3. 下載yolov8n.pt
+
+4.建立data.yaml
+
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4   #分4類
+names: ['Aedes Aegypti', 'Aedes albopictus', 'Anopheles Stephensi', 'Culex Quinquefasciatus']
+
+

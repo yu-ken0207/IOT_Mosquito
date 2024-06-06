@@ -1,0 +1,21 @@
+mosquito/
+|-- Aedes Aegypti/
+|   |-- img1.jpg
+|   |-- img2.jpg
+|   |-- ...
+|-- Aedes Aegypti.json
+|-- Aedes albopictus/
+|   |-- img1.jpg
+|   |-- img2.jpg
+|   |-- ...
+|-- Aedes albopictus.json
+|-- Anopheles Stephensi/
+|   |-- img1.jpg
+|   |-- img2.jpg
+|   |-- ...
+|-- Anopheles Stephensi.json
+|-- Culex Quinquefasciatus/
+|   |-- img1.jpg
+|   |-- img2.jpg
+|   |-- ...
+|-- Culex Quinquefasciatus.json

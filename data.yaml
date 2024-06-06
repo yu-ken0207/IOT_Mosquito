@@ -1,0 +1,6 @@
+train: C:/Users/HCWang/Desktop/物件追蹤/yoloV8/datasets/train/images
+val: C:/Users/HCWang/Desktop/物件追蹤/yoloV8/datasets/val/images
+test: C:/Users/HCWang/Desktop/物件追蹤/yoloV8/datasets/test/images
+
+nc: 4
+names: ['Aedes Aegypti', 'Aedes albopictus', 'Anopheles Stephensi', 'Culex Quinquefasciatus']
